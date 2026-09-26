@@ -25,28 +25,28 @@ export default function Hero() {
 
       <Navbar />
 
-      <div className="flex flex-1 items-center justify-center px-6 py-28">
-        <GlassPanel className="w-full max-w-3xl px-8 py-12 text-center md:px-16 md:py-16">
+      <div className="flex flex-1 items-center justify-center px-6 py-12">
+        <GlassPanel className="translate-y-4 w-full max-w-3xl px-8 py-8 text-center md:px-16 md:py-10">
           <span className="inline-block rounded-full bg-white px-5 py-2 text-xs font-semibold text-brand-brown md:text-sm">
             राष्ट्रीय मौसम मंच · National Weather Platform
           </span>
 
-          <p className="mt-8 font-body text-sm text-white/80 md:text-base">
+          <p className="mt-4 font-body text-sm text-white/80 md:text-base">
             संपूर्ण भारत के लिए वास्तविक समय की सत्यापित मौसम रिपोर्ट
           </p>
 
-          <h1 className="mt-3 font-heading text-5xl font-extrabold leading-tight text-white md:text-7xl">
+          <h1 className="mt-2 font-heading text-5xl font-extrabold leading-tight text-white md:text-7xl">
             Bharat <span className="font-devanagari">ऋतु</span>
           </h1>
 
-          <div className="mx-auto mt-6 h-px w-24 bg-white/50" />
+          <div className="mx-auto mt-4 h-px w-24 bg-white/50" />
 
-          <p className="mx-auto mt-6 max-w-xl font-body text-base text-white/90 md:text-lg">
+          <p className="mx-auto mt-4 max-w-xl font-body text-base text-white/90 md:text-lg">
             Every rain, flood, heatwave and storm — reported by citizens, checked
             against live sensor data, and verified within a minute.
           </p>
 
-          <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-4">
             <Link
               href="/dashboard"
               className="rounded-full bg-white px-7 py-3 font-semibold text-brand-brown transition hover:bg-white/90"
@@ -61,7 +61,7 @@ export default function Hero() {
             </Link>
           </div>
 
-          <div className="mt-10 flex items-center justify-center gap-6">
+          <div className="mt-6 flex items-center justify-center gap-6">
             {legend.map((item) => (
               <span
                 key={item.label}
