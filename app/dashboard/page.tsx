@@ -47,7 +47,7 @@ export default function DashboardPage() {
   }, [filters])
 
   return (
-    <main className="min-h-screen bg-brand-cream">
+    <main className="min-h-screen bg-brand-clay">
       <Navbar variant="solid" />
 
       <div className="mx-auto max-w-7xl px-6 py-10">

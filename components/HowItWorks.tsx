@@ -26,7 +26,7 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section id="how-it-works" className="bg-brand-cream px-6 py-20 text-brand-brown">
+    <section id="how-it-works" className="bg-brand-clay px-6 py-20 text-brand-brown">
       <div className="mx-auto max-w-6xl">
         <p className="text-center font-body text-sm uppercase tracking-widest text-brand-brown/60">
           कैसे काम करता है · How It Works

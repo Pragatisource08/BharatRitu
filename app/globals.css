@@ -3,6 +3,7 @@
 @theme {
   --color-brand-brown: #4A3324;
   --color-brand-cream: #F5EFE6;
+  --color-brand-clay: #be997e;
 
   --font-heading: var(--font-poppins);
   --font-body: var(--font-inter);
