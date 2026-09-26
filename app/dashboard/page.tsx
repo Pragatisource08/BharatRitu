@@ -61,7 +61,7 @@ export default function DashboardPage() {
           <StatsBar reports={filteredReports} totalBeforeFilters={MOCK_REPORTS.length} />
 
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
-            <div className="h-[520px] lg:col-span-2">
+            <div className="relative z-0 isolate h-[520px] lg:col-span-2">
               <MapView reports={filteredReports} selectedId={selectedId} onSelect={setSelectedId} />
             </div>
             <div className="h-[520px]">
